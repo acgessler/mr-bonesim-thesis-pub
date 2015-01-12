@@ -1,0 +1,275 @@
+
+Order of prototype iterations within each block of results:
+
+1: MR "initial implementation"
+2: Baseline "initial implementation"
+3: MR with improved octave coupling
+4: MR with the tab/MR key bugfix
+5: MR with the boundary query bugfix
+6: Baseline with improved octave coupling
+
+*: not taken
+5 and 6 were the final results used within the thesis
+
+
+full cluster (8 nodes, 4 jobs each)
+============
+
+small
+
+aggregation_time: 87.15944130700001
+octave_time: 115.96505291400001
+total_time: 203.12449422100002
+
+aggregation_time: 22.294820375
+octave_time: 3.6641604450000003
+total_time: 25.95898082
+
+aggregation_time: 69.257524536
+octave_time: 566.483387786
+total_time: 635.740912322
+
+aggregation_time: 70.380863769
+octave_time: 71.129557527
+total_time: 141.510421296
+
+aggregation_time: 66.62665534300001
+octave_time: 72.77612573600001
+total_time: 139.40278107900002
+
+aggregation_time: 16.480159951
+octave_time: 12.519843122000001
+total_time: 29.000003073000002
+
+
+
+medium
+
+aggregation_time: 109.73811131500001
+octave_time: 238.65153532000002
+total_time: 348.389646635
+
+aggregation_time: 120.173354555
+octave_time: 5.2723030170000005
+total_time: 125.445657572
+
+aggregation_time: 112.61818443400001
+octave_time: 1046.6919330990002
+total_time: 1159.310117533
+
+aggregation_time: 110.57291639
+octave_time: 82.557124439
+total_time: 193.13004082900002
+
+aggregation_time: 110.24835921900001
+octave_time: 86.35959570300001
+total_time: 196.607954922
+
+aggregation_time: 117.62023199800001
+octave_time: 26.632042243
+total_time: 144.252274241
+
+
+large
+
+
+aggregation_time: 182.16816727600002
+octave_time: 238.36527351900003
+total_time: 420.53344079500005
+
+aggregation_time: 396.75795711100005
+octave_time: 6.906690769000001
+total_time: 403.66464788
+
+aggregation_time: 181.403187556
+octave_time: 1103.9157865040002
+total_time: 1285.31897406
+
+aggregation_time: 177.30279043800002
+octave_time: 90.483417306
+total_time: 267.786207744
+
+aggregation_time: 243.866005875
+octave_time: 102.64358542800001
+total_time: 346.50959130300004
+
+aggregation_time: 400.206624815
+octave_time: 35.946792728000005
+total_time: 436.15341754300005
+
+
+
+half cluster (8 nodes, 2 jobs each)
+============
+
+
+
+small
+
+aggregation_time: 62.2526999
+octave_time: 144.209795286
+total_time: 206.462495186
+
+aggregation_time: 22.429495125000003
+octave_time: 4.94430322
+total_time: 27.373798345
+
+aggregation_time: 59.918810352
+octave_time: 534.507733804
+total_time: 594.4265441560001
+
+*
+
+aggregation_time: 62.331286519
+octave_time: 77.187900138
+total_time: 139.519186657
+
+aggregation_time: 21.120964562
+octave_time: 16.098497409
+total_time: 37.219461971
+
+
+
+
+
+medium
+
+aggregation_time: 123.92770394
+octave_time: 230.017653268
+total_time: 353.945357208
+
+
+aggregation_time: 147.78551947
+octave_time: 7.2815945520000005
+total_time: 155.067114022
+
+aggregation_time: 114.64708699
+octave_time: 995.725413146
+total_time: 1110.372500136
+
+*
+
+aggregation_time: 117.714775481
+octave_time: 102.202026794
+total_time: 219.916802275
+
+aggregation_time: 141.380158996
+octave_time: 30.461279790000003
+total_time: 171.841438786
+
+
+
+
+large
+
+
+aggregation_time: 217.38656384200002
+octave_time: 231.496444846
+total_time: 448.883008688
+
+aggregation_time: 496.16856040100004
+octave_time: 10.105570901
+total_time: 506.27413130200006
+
+aggregation_time: 219.078939921
+octave_time: 998.3397308880001
+total_time: 1217.418670809
+
+*
+
+aggregation_time: 295.515002046
+octave_time: 124.59227359900001
+total_time: 420.107275645
+
+aggregation_time: 491.993040617
+octave_time: 45.196246848
+total_time: 537.189287465
+
+
+
+
+tiny cluster (4 nodes, 2 jobs each)
+============
+
+mr with limited to 8 nodes
+
+small
+
+aggregation_time: 65.354057661
+octave_time: 142.50661476000002
+total_time: 207.860672421
+
+aggregation_time: 30.869629906000004
+octave_time: 7.224591566000001
+total_time: 38.094221472
+
+aggregation_time: 63.941547319
+octave_time: 519.2903857900001
+total_time: 583.231933109
+
+*
+
+aggregation_time: 64.149786076
+octave_time: 105.34198396800001
+total_time: 169.49177004400002
+
+aggregation_time: 29.077726784000003
+octave_time: 27.737207516
+total_time: 56.814934300000004
+
+
+
+medium
+
+aggregation_time: 166.380375718
+octave_time: 227.640168885
+total_time: 394.020544603
+
+aggregation_time: 220.943775931
+octave_time: 12.405837963000002
+total_time: 233.34961389400002
+
+aggregation_time: 182.934867141
+octave_time: 976.17723761
+total_time: 1159.112104751
+
+*
+
+aggregation_time: 158.21822717700002
+octave_time: 156.677591425
+total_time: 314.895818602
+
+aggregation_time: 216.39398361300002
+octave_time: 56.874787139000006
+total_time: 273.268770752
+
+
+
+large
+
+aggregation_time: 304.266174705
+octave_time: 228.665747928
+total_time: 532.931922633
+
+aggregation_time: 734.862038469
+octave_time: 17.519450984000002
+total_time: 752.3814894530001
+
+aggregation_time: 319.800410667
+octave_time: 989.273248136
+total_time: 1309.0736588030002
+
+*
+
+aggregation_time: 472.96063577900003
+octave_time: 209.626802848
+total_time: 682.5874386270001
+
+aggregation_time: 733.1933220020001
+octave_time: 83.801486835
+total_time: 816.994808837
+
+
+
+
+

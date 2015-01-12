@@ -1,0 +1,3 @@
+[submodule "prototypes/mapreduce-wsi"]
+	path = prototypes/mapreduce-wsi
+	url = https://github.com/acgessler/mapreduce-wsi
