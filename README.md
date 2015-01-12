@@ -15,8 +15,8 @@ Note: you need to use the `--recursive` flag when cloning this repository to mak
 
 ####Documentation
 
-  - [Evaluation](https://github.com/acgessler/mr-bonesim-thesis/blob/master/evaluation.md) (reproducing results, getting started with the prototype's source code).
-  - [Hadoop/Ambari Cookbook](https://github.com/acgessler/mr-bonesim-thesis/blob/master/hadoop.md) (pitfalls and issues encountered when setting up a Hadoop cluster from scratch using Ambari, partly specific to CentOS 6.5).
+  - [Evaluation](https://github.com/acgessler/mr-bonesim-thesis-pub/blob/master/evaluation.md) (reproducing results, getting started with the prototype's source code).
+  - [Hadoop/Ambari Cookbook](https://github.com/acgessler/mr-bonesim-thesis-pub/blob/master/hadoop.md) (pitfalls and issues encountered when setting up a Hadoop cluster from scratch using Ambari, partly specific to CentOS 6.5).
 
 ####Abstract
 
